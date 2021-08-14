@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>CobCal 2</h1>
-        <p>Calculadora de Cobertuda Vegetal</p>
+        <p>Calculadora de Cobertura Vegetal</p>
         <p><a href="https://www.youtube.com/watch?v=Vfa1rEKGTok" target="_blank" rel="noreferrer" className="App-link">Instrucciones de uso</a></p>
         <a
           className="button"
