@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import flag from './flag.svg';
 import './App.css';
 
 function App() {
@@ -6,18 +7,24 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>CobCal 2</h1>
+        <p>Calculadora de Cobertuda Vegetal</p>
+        <p><a href="https://www.youtube.com/watch?v=Vfa1rEKGTok" target="_blank" rel="noreferrer" className="App-link">Instrucciones de uso</a></p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="button"
+          href="https://drive.google.com/file/d/0Bw2EzksvLIaAb0VHUVlGN04tZW8/view?usp=sharing&resourcekey=0-eRqC14tCNjXO0fW2r-ev4g"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Descargar
+          <span class="version-detail">Versión 2.0.68</span>
         </a>
       </header>
+      <div></div>
+      <footer><p>&copy;2008-{new Date().getFullYear()} <a href="mailto:dmferrari@gmail.com">Mart&iacute;n Ferrari</a></p>
+        <p>Todos los derechos reservados</p>
+        <img src={flag} className="flag" alt="Hecho en Argentina" title="Hecho en Argentina" />
+      </footer>
     </div>
   );
 }
