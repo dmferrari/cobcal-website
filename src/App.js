@@ -21,7 +21,7 @@ function App() {
         </a>
       </header>
       <div></div>
-      <footer><p>&copy;2008-{new Date().getFullYear()} <a href="mailto:dmferrari@gmail.com">Mart&iacute;n Ferrari</a></p>
+      <footer><p>&copy;2008-{new Date().getFullYear()} <a href="mailto:cobcal@gmail.com">Mart&iacute;n Ferrari</a></p>
         <p>Todos los derechos reservados</p>
         <img src={flag} className="flag" alt="Hecho en Argentina" title="Hecho en Argentina" />
       </footer>
