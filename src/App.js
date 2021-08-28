@@ -17,7 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Descargar
-          <span class="version-detail">Versión 2.0.68</span>
+          <span className="version-detail">Versión 2.0.68</span>
         </a>
       </header>
       <div></div>
