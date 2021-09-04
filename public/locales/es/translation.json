@@ -1,7 +1,8 @@
 {
+  "allRightsReserved": "Todos los derechos reservados",
   "cobcalDescription": "Calculadora de Cobertura Vegetal",
-  "usageInstructions": "Instrucciones de uso",
   "download": "Descargar",
-  "version": "Versión",
-  "allRightsReserved": "Todos los derechos reservados"
+  "madeInArgentin": "Hecho en Argentina",
+  "usageInstructions": "Instrucciones de uso",
+  "version": "Versión"
 }

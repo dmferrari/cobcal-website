@@ -1,7 +1,8 @@
 {
+  "allRightsReserved": "All rights reserved",
   "cobcalDescription": "Vegetation Cover Calculator",
-  "usageInstructions": "Usage Instructions",
   "download": "Download",
-  "version": "Version",
-  "allRightsReserved": "All rights reserved"
+  "madeInArgentin": "Made in Argentina",
+  "usageInstructions": "Usage Instructions",
+  "version": "Version"
 }
