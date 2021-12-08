@@ -3,6 +3,7 @@ import './App.css';
 import flag from './flag.svg';
 import logo from './logo.svg';
 import { useTranslation } from "react-i18next";
+import DonationButton from './components/donation_button';
 
 function App() {
   const { t } = useTranslation();
@@ -22,8 +23,8 @@ function App() {
           {t('download')}
           <span className="version-detail">{t('version')} 2.0.68</span>
         </a>
+      <DonationButton />
       </header>
-      <div></div>
       <footer><p>&copy;2008-{new Date().getFullYear()} <a href="mailto:cobcal@gmail.com">Mart&iacute;n Ferrari</a></p>
         <p>{t('allRightsReserved')}</p>
         <img src={flag} className="flag" alt={t('madeInArgentina')} title={t('madeInArgentina')} />
